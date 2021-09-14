@@ -122,7 +122,7 @@ function fakealert(title,msg){
   document.getElementById('title').style.visibility = 'hidden'
   document.getElementById('close').style.backgroundColor = '#1c1c1e'
   document.getElementById('close').style.color = '#4794fe'
-  document.getElementById('notification')}.style.backgroundColor = '#1c1c1e'
+  document.getElementById('notification').style.backgroundColor = '#1c1c1e'
   document.getElementById('close').style.innerHTML = 'Close'
   document.getElementById('title').style.top = '15px'
   document.getElementById('notification').style.visibility = 'visible'
