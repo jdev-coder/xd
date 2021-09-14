@@ -109,7 +109,7 @@ function fakealert(title,msg){
     document.getElementById('close').style.fontFamily = 'system-ui'
     document.getElementById('close').innerHTML = 'Close'
     document.getElementById('notification').style.height = '115px'
-    document.getElementById('notification').style.width = '200px'
+    document.getElementById('notification').style.width = '115px'
     document.getElementById('close').style.fontFamily = 'system-ui'
     document.getElementById('close').style.fontSize = '18px'
     document.getElementById('title').style.visibility = 'hidden'
