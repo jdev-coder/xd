@@ -36,7 +36,7 @@ button {
 }
 
 #darken {
-  opacity: 50%;
+  opacity: .5;
   background-color: black;
 }
 
