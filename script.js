@@ -87,7 +87,6 @@ document.getElementById('close').addEventListener('click',function(){
 function fakealert(title,msg){
   document.getElementById('title').innerHTML = title
   document.getElementById('message').innerHTML = msg
-  /*
   if (getBrowserInfo() == 'Chrome' || getBrowserInfo() == 'Opera'){
     document.getElementById('close').style.border = 'thin solid #4285f4';
     document.getElementById('title').style.font = '14px system-ui'
@@ -107,23 +106,18 @@ function fakealert(title,msg){
     //document.getElementById('darken').style.visibility = 'visible'
   }
   if (getBrowserInfo() == 'Safari'){
-    document.getElementById('close').style.fontFamily = 'sans-serif'
-    document.getElementById('close').style.innerHTML = 'Close'
-    document.getElementById('close').style.fontFamily = 'sans-serif'
+    document.getElementById('close').style.fontFamily = 'system-ui'
+    document.getElementById('close').innerHTML = 'Close'
+    document.getElementById('notification').style.height = '115px'
+    document.getElementById('close').style.fontFamily = 'system-ui'
+    document.getElementById('close').style.fontSize = '14px'
     document.getElementById('title').style.visibility = 'hidden'
-    document.getElementById('title').style.visibility = 'hidden'
+    document.getElementById('close').style.backgroundColor = '#1c1c1e'
+    document.getElementById('close').style.color = '#4794fe'
+    document.getElementById('notification').style.backgroundColor = '#1c1c1e'
+    document.getElementById('notification').style.visibility = 'visible'
+    document.getElementById('notification').style.borderRadius = '20px'
   }
-  */
-  document.getElementById('close').style.fontFamily = 'sans-serif'
-  document.getElementById('close').innerHTML = 'Close'
-  document.getElementById('notification').style.height = '115px'
-  document.getElementById('close').style.fontFamily = 'sans-serif'
-  document.getElementById('close').style.fontSize = '14px'
-  document.getElementById('title').style.visibility = 'hidden'
-  document.getElementById('close').style.backgroundColor = '#1c1c1e'
-  document.getElementById('close').style.color = '#4794fe'
-  document.getElementById('notification').style.backgroundColor = '#1c1c1e'
-  document.getElementById('notification').style.visibility = 'visible'
 }
                         
 setInterval(function(){
