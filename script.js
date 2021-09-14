@@ -1,9 +1,5 @@
 document.getElementById('notification').style.visibility = 'hidden'
 document.getElementById('globeicon').style.visibility = 'hidden'
-document.getElementById('darken').style.visibility = 'hidden'
-
-document.getElementById('darken').style.width = window.screen.width
-document.getElementById('darken').style.height = window.screen.height
 
 console.log('Sus')
 
