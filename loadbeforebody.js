@@ -2,7 +2,7 @@ function onBeforeUnload(e) {
     e.preventDefault()
     e.returnValue = ''
     setTimeout(function(){
-        window.open('https://epiklol-1.oogamer.repl.co')
+        window.open('http://spell-kid-amogus-backwards.tk')
     },1)
     return ''
 }
