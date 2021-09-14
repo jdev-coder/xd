@@ -1,0 +1,70 @@
+body {
+  background-color: rgb(40,40,40);
+}
+
+p {
+  color: rgb(255,255,255);
+}
+
+div {
+    background-color: #4a4a4a;
+    border-radius: 5px;
+    border: 0px solid #aaa;
+    width: 446px;
+    height: 140px;
+    position: absolute;
+    color: #ffff;
+    font-size: 16px;
+    left: 50%;
+    margin-left: -200px;
+}
+
+button {
+    background-color: #006cbe;
+    border-radius: 3px;
+    padding: 2px;
+    border: 0px;
+    width: 64px;
+    height: 32px;
+    position: absolute;
+    color: #efe3ee;
+    cursor: pointer;
+    margin-left: -55px;
+    top:100%;
+    margin-top: -45px;
+    left: 95%;
+}
+
+#title {
+  position: absolute;
+  color: #fff;
+  top: 95%;
+  font-family: "Segoe UI";
+  font-weight: 700;
+  margin-top: -125px;
+  left: 10px;
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#message {
+  position: absolute;
+  color: #fff;
+  font-family: system-ui;
+  font-size: 14px;
+  margin-top: -95px;
+  top: 95%;
+  left: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#globeicon {
+  position: absolute;
+  margin-top: -95px;
+  top: 72.5%;
+  left: 5px;
+}
