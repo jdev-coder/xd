@@ -88,10 +88,11 @@ function fakealert(title,msg){
     document.getElementById('close').style.backgroundColor = '#8ab4f8'
   }
   if (getBrowserInfo() == 'Firefox'){
-    document.getElementById('notification').style.top = '45%'
+    document.getElementById('notification').style.top = '50%'
     document.getElementById('close').style.backgroundColor = '00ddff'
     document.getElementById('notification').style.backgroundColor = '#42414d'
     document.getElementById('title').style.left = '25px'
+    document.getElementById('notification').style.marginTop = '45%'
     document.getElementById('globeicon').style.visibility = 'visible'
     document.getElementById('title').style.fontFamily = 'sans-serif'
     document.getElementById('title').style.fontSize = '12px'
