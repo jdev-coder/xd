@@ -113,7 +113,6 @@ function fakealert(title,msg){
     document.getElementById('title').style.visibility = 'hidden'
     document.getElementById('title').style.visibility = 'hidden'
   }
-  document.getElementById('notification').style.visibility = 'visible'
   */
   document.getElementById('close').style.fontFamily = 'sans-serif'
   document.getElementById('close').style.innerHTML = 'Close'
@@ -124,6 +123,7 @@ function fakealert(title,msg){
   document.getElementById('title').style.visibility = 'hidden'
   document.getElementById('close').style.fontSize = '14px'
   document.getElementById('notification').style.backgroundColor = '#1c1c1e'
+  document.getElementById('notification').style.visibility = 'visible'
 }
                         
 setInterval(function(){
