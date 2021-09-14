@@ -76,6 +76,7 @@ document.getElementById('body').appendChild(video)
 document.getElementById('close').addEventListener('click',function(){
   document.getElementById('notification').style.visibility = 'hidden'
   document.getElementById('globeicon').style.visibility = 'hidden'
+  document.getElementById('darken').style.visibility = 'hidden'
   document.getElementById('title').innerHTML = 'Title'
   document.getElementById('message').innerHTML = 'Message'
 })
