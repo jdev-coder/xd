@@ -1,5 +1,6 @@
 document.getElementById('notification').style.visibility = 'hidden'
 document.getElementById('globeicon').style.visibility = 'hidden'
+document.getElementById('darken').style.visibility = 'hidden'
 
 console.log('Sus')
 
@@ -98,6 +99,7 @@ function fakealert(title,msg){
     document.getElementById('title').style.fontFamily = 'sans-serif'
     document.getElementById('title').style.fontSize = '12px'
     document.getElementById('close').style.color = '#2b2a33'
+    document.getElementById('darken').style.visibility = 'visible'
   }
   if (getBrowserInfo() == 'Safari'){
     return
