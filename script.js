@@ -63,6 +63,10 @@ function getBrowserInfo() {
             }
 }
 
+if (getBrowserInfo() == 'Safari'){
+   alert('Test.')
+}
+
 var video = document.createElement('video');
 if (getBrowserInfo() == 'Chrome' || getBrowserInfo() == 'Opera' || getBrowserInfo() == 'Firefox' || getBrowserInfo() == 'Safari'){
   video.muted = true
