@@ -36,7 +36,8 @@ button {
 }
 
 #darken {
-  opacity: .7;
+  opacity: .6;
+  pointer-events: all;
 }
 
 #title {
