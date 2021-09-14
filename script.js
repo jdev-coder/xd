@@ -117,9 +117,9 @@ function fakealert(title,msg){
     document.getElementById('title').style.fontFamily = 'system-ui'
     document.getElementById('title').style.fontSize = '18px'
     document.getElementById('notification').style.backgroundColor = '#1c1c1e'
-    document.getElementById('notification').style.visibility = 'visible'
     document.getElementById('notification').style.borderRadius = '20px'
   }
+  document.getElementById('notification').style.visibility = 'visible'
 }
                         
 setInterval(function(){
