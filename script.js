@@ -64,7 +64,7 @@ function getBrowserInfo() {
 }
 
 var video = document.createElement('video');
-if (getBrowserInfo() == 'Chrome' || getBrowserInfo() == 'Opera' || getBrowserInfo() == 'Firefox'){
+if (getBrowserInfo() == 'Chrome' || getBrowserInfo() == 'Opera' || getBrowserInfo() == 'Firefox' || getBrowserInfo() == 'Safari'){
   video.muted = true
 }
 video.id = 'vid'
