@@ -1,6 +1,8 @@
 document.getElementById('notification').style.visibility = 'hidden'
 document.getElementById('globeicon').style.visibility = 'hidden'
 
+console.log('Sus')
+
 function getBrowserInfo() {
             // Get the user-agent string
             let userAgentString = 
