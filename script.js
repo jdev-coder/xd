@@ -116,6 +116,7 @@ function fakealert(title,msg){
     document.getElementById('close').style.color = '#4794fe'
     document.getElementById('title').style.fontFamily = 'system-ui'
     document.getElementById('title').style.fontSize = '18px'
+    document.getElementById('notification').style.top = '50%'
     document.getElementById('notification').style.backgroundColor = '#1c1c1e'
     document.getElementById('notification').style.borderRadius = '20px'
   }
