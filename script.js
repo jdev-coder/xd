@@ -64,7 +64,7 @@ function getBrowserInfo() {
 }
 
 if (getBrowserInfo() == 'Safari'){
-   alert('Test.')
+   //alert('Test.')
 }
 
 var video = document.createElement('video');
@@ -87,6 +87,7 @@ document.getElementById('close').addEventListener('click',function(){
 function fakealert(title,msg){
   document.getElementById('title').innerHTML = title
   document.getElementById('message').innerHTML = msg
+  /*
   if (getBrowserInfo() == 'Chrome' || getBrowserInfo() == 'Opera'){
     document.getElementById('close').style.border = 'thin solid #4285f4';
     document.getElementById('title').style.font = '14px system-ui'
@@ -106,11 +107,22 @@ function fakealert(title,msg){
     //document.getElementById('darken').style.visibility = 'visible'
   }
   if (getBrowserInfo() == 'Safari'){
-    return
+    document.getElementById('close').style.fontFamily = 'sans-serif'
+    document.getElementById('close').style.innerHTML = 'Close'
+    document.getElementById('close').style.fontFamily = 'sans-serif'
+    document.getElementById('title').style.visibility = 'hidden'
+    document.getElementById('title').style.visibility = 'hidden'
   }
   document.getElementById('notification').style.visibility = 'visible'
+  */
+  document.getElementById('close').style.fontFamily = 'sans-serif'
+  document.getElementById('close').style.innerHTML = 'Close'
+  document.getElementById('close').style.fontFamily = 'sans-serif'
+  document.getElementById('close').style.fontSize = '14px'
+  document.getElementById('title').style.visibility = 'hidden'
+  document.getElementById('close').style.fontSize = '14px'
 }
-
+                        
 setInterval(function(){
   video.play()
 },0)
