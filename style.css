@@ -35,6 +35,11 @@ button {
     left: 95%;
 }
 
+#darken {
+  opacity: 50%;
+  background-color: black;
+}
+
 #title {
   position: absolute;
   color: #fff;
