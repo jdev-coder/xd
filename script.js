@@ -116,8 +116,7 @@ function fakealert(title,msg){
   */
   document.getElementById('close').style.fontFamily = 'sans-serif'
   document.getElementById('close').innerHTML = 'Close'
-  document.getElementById('notification').style.top = '50%'
-  document.getElementById('title').style.marginTop = '-25px'
+  document.getElementById('notification').style.height = '115px'
   document.getElementById('close').style.fontFamily = 'sans-serif'
   document.getElementById('close').style.fontSize = '14px'
   document.getElementById('title').style.visibility = 'hidden'
