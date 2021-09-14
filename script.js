@@ -90,7 +90,7 @@ function fakealert(title,msg){
     document.getElementById('close').style.backgroundColor = '#8ab4f8'
   }
   if (getBrowserInfo() == 'Firefox'){
-    document.getElementById('notification').style.top = '45%'
+    document.getElementById('notification').style.top = '55%'
     document.getElementById('close').style.backgroundColor = '00ddff'
     document.getElementById('notification').style.backgroundColor = '#42414d'
     document.getElementById('title').style.left = '25px'
